@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.Blend?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox fx:id="root" alignment="center" spacing="10" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+    <padding>
+        <Insets bottom="10" left="10" right="10" top="10" />
+    </padding>
+
+    <VBox alignment="center" spacing="10" style="-fx-background-color: rgba(0, 0, 0, 0.6); -fx-background-radius: 10; -fx-padding: 10;">
+        <TextField fx:id="cityField" alignment="CENTER" promptText="Enter city name">
+         <font>
+            <Font name="System Bold Italic" size="15.0" />
+         </font>
+         <effect>
+            <Blend opacity="0.0" />
+         </effect></TextField>
+        <Button fx:id="searchButton" alignment="CENTER" onAction="#getWeather" text="Get Weather">
+         <font>
+            <Font size="15.0" />
+         </font></Button>
+        <Label fx:id="weatherLabel" style="-fx-text-fill: white;" text="Weather: -">
+         <font>
+            <Font size="15.0" />
+         </font>
+         <VBox.margin>
+            <Insets top="30.0" />
+         </VBox.margin></Label>
+        <Label fx:id="temperatureLabel" style="-fx-text-fill: white;" text="Temperature: -">
+         <font>
+            <Font size="15.0" />
+         </font></Label>
+        <Label fx:id="feelsLikeLabel" style="-fx-text-fill: white;" text="Feels Like: -">
+         <font>
+            <Font size="15.0" />
+         </font></Label>
+        <Label fx:id="uvIndexLabel" style="-fx-text-fill: white;" text="UV Index: -">
+         <font>
+            <Font size="15.0" />
+         </font></Label>
+        <Label fx:id="visibilityLabel" style="-fx-text-fill: white;" text="Visibility: -">
+         <font>
+            <Font size="15.0" />
+         </font></Label>
+        <Label fx:id="windLabel" style="-fx-text-fill: white;" text="Wind Speed: -">
+         <font>
+            <Font size="15.0" />
+         </font></Label>
+        <Label fx:id="windDirectionLabel" style="-fx-text-fill: white;" text="Wind Direction: -">
+         <font>
+            <Font size="15.0" />
+         </font></Label>
+        <Label fx:id="cloudLabel" style="-fx-text-fill: white;" text="Cloud Cover: -">
+         <font>
+            <Font size="15.0" />
+         </font></Label>
+        <ImageView fx:id="conditionImage" fitHeight="64" fitWidth="64" />
+    </VBox>
+</VBox>
