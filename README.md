@@ -17,6 +17,9 @@ Before running the project, ensure you have the following installed:
    - `jackson-core-2.2.3`
    - `jackson-databind-2.1.3`
 
+## You can check how does this application work here in the youtube video:
+`https://youtu.be/q3eg22DvKw4`
+
 ## Setting Up the Project
 
 ### Cloning the Repository
