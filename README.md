@@ -20,6 +20,9 @@ Before running the project, ensure you have the following installed:
 ## You can check how does this application work here in the youtube video:
 `https://youtu.be/q3eg22DvKw4`
 
+![image](https://github.com/user-attachments/assets/b21365bd-e042-49eb-b9cf-9229a558204c)
+
+
 ## Setting Up the Project
 
 ### Cloning the Repository
